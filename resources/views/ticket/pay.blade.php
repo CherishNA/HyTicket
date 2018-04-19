@@ -44,7 +44,12 @@
             </tr>
             <tr>
                 <td>购票人姓名:</td>
-                <td>{{$order->name}}</td>
+                <td>@if(empty($order->name))
+                        {{$order->username}}
+                    @else
+                        {{$order->name}}
+                    @endif
+                </td>
             </tr>
             <tr>
                 <td>购票人手机号:</td>
@@ -65,12 +70,13 @@
             <tr>
                 <td>订单金额:</td>
                 <td>@if(empty($pro_price))
-                    {{$order->order_price}}
-                        @else
+                        {{$order->order_price}}
+                    @else
                         {{$pro_price}}
-                        @endif
+                    @endif
 
-                    元</td>
+                    元
+                </td>
             </tr>
             </tbody>
         </table>
@@ -102,7 +108,7 @@
 //                alert(res.err_msg);
                 if (res.err_msg == "get_brand_wcpay_request:ok") {
                     alert('支付成功。');
-                    window.location.href = '/wxpay/paysuccess?order_id=' + '{{$order->order_id}}'+'&order_info='+'{{$order->order_info}}';
+                    window.location.href = '/wxpay/paysuccess?order_id=' + '{{$order->order_id}}' + '&order_info=' + '{{$order->order_info}}';
                 }
                 else if (res.err_msg == "get_brand_wcpay_request:cancel") {
                     alert("支付失败，请返回重试。");

@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e84c9f45-d688-4e8e-8cb1-a2857a3e5f87" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pic300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ticket/share.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/CheckSignController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/CheckSignController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/ticket/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ticket/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/ticket/pay.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ticket/pay.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laramall/laravel-weixin-login/src/WeixinController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laramall/laravel-weixin-login/src/WeixinController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,20 +27,85 @@
       <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-137">
+            <state relative-caret-position="442">
               <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="11" selection-start-column="11" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="share.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/ticket/share.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeixinController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/laramall/laravel-weixin-login/src/WeixinController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="222" column="9" selection-start-line="222" selection-start-column="9" selection-end-line="222" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/ticket/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="195" selection-start-line="195" selection-end-line="195" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckSignController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/CheckSignController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pay.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/ticket/pay.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WxPayController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxPayController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-180">
+              <caret line="212" column="38" lean-forward="true" selection-start-line="212" selection-start-column="38" selection-end-line="212" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketOrder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/TicketOrder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -67,14 +138,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CheckSignController.php" />
         <option value="$PROJECT_DIR$/resources/views/ticket/checkSign.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_12_18_053749_create_order_table.php" />
         <option value="$PROJECT_DIR$/config/admin.php" />
         <option value="$PROJECT_DIR$/resources/views/ticket/error.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/ticket/index1.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/ticket/index2.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/ticket/index.blade.php" />
         <option value="$PROJECT_DIR$/app/market_structure.php" />
         <option value="$PROJECT_DIR$/app/TicketOrder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_03_21_104134_create_hy_user_tables.php" />
@@ -96,14 +165,11 @@
         <option value="$PROJECT_DIR$/vendor/laramall/laravel-weixin-login/src/Weixin.php" />
         <option value="$PROJECT_DIR$/vendor/laramall/laravel-weixin-login/src/routes.php" />
         <option value="$PROJECT_DIR$/database/migrations/single/2018_03_21_105801_create_ysy_order__tables.php" />
-        <option value="$PROJECT_DIR$/app/Admin/Controllers/CheckSignController.php" />
         <option value="$PROJECT_DIR$/app/YsyProject.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/RecController.php" />
         <option value="$PROJECT_DIR$/app/YsyOrderModel.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/YsyToolController.php" />
         <option value="$PROJECT_DIR$/resources/views/ticket/ysySuccess.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/ticket/pay.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/ticket/success.blade.php" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/YsyOrderController.php" />
         <option value="$PROJECT_DIR$/app/Admin/routes.php" />
@@ -116,8 +182,13 @@
         <option value="$PROJECT_DIR$/vendor/laramall/laravel-weixin-login/src/YsyWeiXinController.php" />
         <option value="$PROJECT_DIR$/resources/views/ticket/ysy.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/WxPayController.php" />
-        <option value="$PROJECT_DIR$/vendor/laramall/laravel-weixin-login/src/WeixinController.php" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/ticket/share.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/ticket/pay.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/laramall/laravel-weixin-login/src/WeixinController.php" />
+        <option value="$PROJECT_DIR$/resources/views/ticket/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Controllers/CheckSignController.php" />
       </list>
     </option>
   </component>
@@ -226,11 +297,11 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="59" />
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-95" />
+    <option name="y" value="50" />
     <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,7 +309,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,14 +316,33 @@
               <item name="HyTicket55" type="b2602c69:ProjectViewProjectNode" />
               <item name="HyTicket55" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="HyTicket55" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyTicket55" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HyTicket55" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyTicket55" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HyTicket55" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyTicket55" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value=".get&#9;null&#9;null&#10;we&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/YsyWeiXinController.php&#10;web&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/routes/web.php&#10;ysyor&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/YsyOrderModel.php&#10;too&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/Http/Controllers/YsyToolController.php&#10;tool&#9;null&#9;null&#10;ysyp&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/YsyProject.php&#10;ysy&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/ysy.blade.php&#10;PAY&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/pay.blade.php&#10;pay&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/pay.blade.php&#10;YSYO&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/YsyOrderModel.php&#10;YSY&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/YsyWeiXinController.php&#10;route&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/routes.php&#10;ma&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/market_structure.php&#10;login&#9;null&#9;null&#10;rou&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/routes.php&#10;index&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/index.blade.php&#10;wx&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/Http/Controllers/WxPayController.php&#10;weixin&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/WeixinController.php&#10;tic&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/TicketOrder.php&#10;user&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/Models/User.php&#10;succ&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/success.blade.php&#10;order&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/TicketOrder.php&#10;pa&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/overtrue/wechat/src/Payment/Payment.php&#10;wei&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/WeixinController.php&#10;.env&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/.env&#10;pay_o&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/pay_order.blade.php&#10;in&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/index.blade.php&#10;registerBase&#9;null&#9;null&#10;weix&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/WeixinController.php&#10;wec&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/WeixinController.php&#10;market_structure&#9;null&#9;null&#10;web.php&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/routes/web.php&#10;inde&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/index.blade.php&#10;2&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/database/migrations/2017_12_18_053749_create_order_table.php&#10;Ticke&#9;null&#9;null&#10;User&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/Models/User.php&#10;Tic&#9;null&#9;null&#10;or&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/Http/Controllers/OrderController.php&#10;st&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/market_structure.php" />
+    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://C:/Users/NingAng/Desktop/HyTicket55/resources/views/ticket/index.blade.php&#10;ixin&#9;FILE&#9;file://C:/Users/NingAng/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/WeixinController.php&#10;tic&#9;FILE&#9;file://C:/Users/NingAng/Desktop/HyTicket55/app/TicketOrder.php&#10;pay&#9;FILE&#9;file://C:/Users/NingAng/Desktop/HyTicket55/app/Http/Controllers/WxPayController.php&#10;weixin&#9;FILE&#9;file://C:/Users/NingAng/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/WeixinController.php&#10;web&#9;FILE&#9;file://C:/Users/NingAng/Desktop/HyTicket55/routes/web.php&#10;.get&#9;null&#9;null&#10;we&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/YsyWeiXinController.php&#10;ysyor&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/YsyOrderModel.php&#10;too&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/Http/Controllers/YsyToolController.php&#10;tool&#9;null&#9;null&#10;ysyp&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/YsyProject.php&#10;ysy&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/ysy.blade.php&#10;PAY&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/pay.blade.php&#10;YSYO&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/YsyOrderModel.php&#10;YSY&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/YsyWeiXinController.php&#10;route&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/routes.php&#10;ma&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/market_structure.php&#10;login&#9;null&#9;null&#10;rou&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/routes.php&#10;wx&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/Http/Controllers/WxPayController.php&#10;user&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/Models/User.php&#10;succ&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/success.blade.php&#10;order&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/TicketOrder.php&#10;pa&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/overtrue/wechat/src/Payment/Payment.php&#10;wei&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/WeixinController.php&#10;.env&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/.env&#10;pay_o&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/pay_order.blade.php&#10;in&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/index.blade.php&#10;registerBase&#9;null&#9;null&#10;weix&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/WeixinController.php&#10;wec&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/WeixinController.php&#10;market_structure&#9;null&#9;null&#10;web.php&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/routes/web.php&#10;inde&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/resources/views/ticket/index.blade.php&#10;2&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/database/migrations/2017_12_18_053749_create_order_table.php&#10;Ticke&#9;null&#9;null&#10;User&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/vendor/laramall/laravel-weixin-login/src/Models/User.php&#10;Tic&#9;null&#9;null&#10;or&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/Http/Controllers/OrderController.php&#10;st&#9;FILE&#9;file://C:/Users/NA-PC/Desktop/HyTicket55/app/market_structure.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -261,16 +350,17 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\NA-PC\Desktop\HyTicket55\database\migrations\single" />
-      <recent name="C:\Users\NA-PC\Desktop\HyTicket55\public" />
-      <recent name="C:\Users\NA-PC\Desktop\HyTicket55\vendor\yansongda\laravel-pay\config" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NingAng\Desktop\HyTicket55\public" />
       <recent name="C:\Users\NA-PC\Desktop\HyTicket55\public" />
       <recent name="C:\Users\NA-PC\Desktop\HyTicket55\public\js" />
       <recent name="C:\Users\NA-PC\Desktop\HyTicket55" />
       <recent name="C:\Users\NA-PC\Desktop\HyTicket55\resources\views\tieket" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NA-PC\Desktop\HyTicket55\database\migrations\single" />
+      <recent name="C:\Users\NA-PC\Desktop\HyTicket55\public" />
+      <recent name="C:\Users\NA-PC\Desktop\HyTicket55\vendor\yansongda\laravel-pay\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,15 +486,18 @@
       <workItem from="1521767404004" duration="7571000" />
       <workItem from="1523263345435" duration="2016000" />
       <workItem from="1523502062405" duration="2264000" />
-      <workItem from="1523511484395" duration="1254000" />
+      <workItem from="1523511484395" duration="2087000" />
+      <workItem from="1523522062686" duration="2805000" />
+      <workItem from="1523582538040" duration="1382000" />
+      <workItem from="1523675294473" duration="2815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276064000" />
+    <option name="totallyTimeSpent" value="283899000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="30" width="1936" height="1066" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -413,8 +506,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3362162" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2880259" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21481876" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28713968" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22121535" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -434,23 +527,23 @@
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20989583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.19746569" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="12" visible="true" weight="0.32374102" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29411766" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.19746569" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20989583" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +558,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laramall/laravel-weixin-login/src/YsyWeiXinController" />
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -492,13 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/TicketOrder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -623,13 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/CheckSignController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="164" column="88" lean-forward="true" selection-start-line="163" selection-start-column="11" selection-end-line="164" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/YsyProject.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -708,24 +786,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ticket/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3068">
-          <caret line="118" column="7" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/YsyTicketController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2652">
           <caret line="102" column="24" lean-forward="true" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ticket/pay.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2548">
-          <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -750,38 +814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxPayController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4862">
-          <caret line="195" column="34" selection-start-line="195" selection-start-column="20" selection-end-line="195" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laramall/laravel-weixin-login/src/WeixinController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4571">
-          <caret line="230" column="1" lean-forward="true" selection-start-line="230" selection-start-column="1" selection-end-line="230" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laramall/laravel-weixin-login/src/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="22" column="59" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -792,6 +828,74 @@
             <caret column="11" selection-start-column="11" selection-end-column="11" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ticket/share.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ticket/pay.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TicketOrder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxPayController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="212" column="38" lean-forward="true" selection-start-line="212" selection-start-column="38" selection-end-line="212" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laramall/laravel-weixin-login/src/WeixinController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="222" column="9" selection-start-line="222" selection-start-column="9" selection-end-line="222" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ticket/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/CheckSignController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
         </state>
       </provider>
     </entry>

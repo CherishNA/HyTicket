@@ -23,5 +23,9 @@ Route::any('api/getsub', 'YsyToolController@getsub');
 Route::any('api/getdai', 'YsyToolController@getdai');
 Route::any('api/getpro', 'YsyToolController@getpro');
 
+Route::any('share',function (){
+   return view('ticket/share');
+});
+
 
 

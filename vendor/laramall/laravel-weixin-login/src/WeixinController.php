@@ -188,7 +188,7 @@ class WeixinController extends Controller
         $order->username = $request->input('username');
         $order->order_info = '花缘4月17大会门票';
         $order->order_price = 100.00;
-        $order->ucid = $request->input('ucid');
+        $order->ucid = 'null';
         $order->area = $request->input('provinceName') . $request->input('cityName') . $request->input('streetName');
         $order->recommend_id = $request->input('tuijianren');
         $order->openid = $request->input('openid');
@@ -200,7 +200,7 @@ class WeixinController extends Controller
         //支付时间为空
         $order->pay_time = null;
         //订单类型线上订单
-        $order->order_type=0;
+        $order->order_type = 0;
         //生成随机订单码
         $order->order_id = date('Ymd') . str_pad(mt_rand(1, 99999), 5, '0', STR_PAD_LEFT);
         //事物处理订单
@@ -213,8 +213,14 @@ class WeixinController extends Controller
             DB::rollback();
             $flag = false;
         }
-        $market_structure = market_structure::where('cid', '=', $request->input('tuijianren'))->first();
-        $recommend_name = $market_structure->name;
+        if (!empty($request->input('tuijianren'))) {
+            if ($request->input('tuijianren') == 'NOSTR') {
+                $recommend_name = '无推荐人';
+
+            } else {
+                $recommend_name = market_structure::where('cid', '=', $request->input('tuijianren'))->first()->name;
+            }
+        }
         $wxpay = new WxPayController();
         $options = $wxpay->ticketPayOrder($order);
 //        dd($options['config']);

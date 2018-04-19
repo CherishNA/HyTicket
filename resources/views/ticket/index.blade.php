@@ -37,19 +37,16 @@
                         cellPhone: true,
                         minlength: 11,
                         maxlength: 11,
-                    },
-                    ucid: {
-                        required: true,
-                        IDCard: true
-                    }, captcha: {required: true},tuijianren:{
+                    }
+                    , captcha: {required: true}, tuijianren: {
                         required: true,
                     }
                 }, messages: {
                     username: '请输入购票人姓名',
                     mobile: '请输入正确的手机号',
-                    ucid: '请输入正确的身份证号码',
+
                     captcha: '请填写验证码',
-                    tuijianren:'请选择推荐人'
+                    tuijianren: '请选择推荐人'
                 }
             });
         });
@@ -69,6 +66,7 @@
          * @type {number}
          */
         var wait = 60;
+
         function time(o) {
             if (wait == 0) {
                 o.removeAttribute("disabled");
@@ -84,6 +82,7 @@
                     1000)
             }
         }
+
         /**
          * 发送短信
          * @param o
@@ -151,12 +150,12 @@
                 {{--</p>--}}
             </div>
 
-            <div class="form-group" style="clear: both">
+            {{--<div class="form-group" style="clear: both">--}}
 
-                <lable> 身份证号码：</lable>
-                <input type="text" class="form-control" name="ucid" id="ucid">
-            </div>
-            <div class="form-group">
+            {{--<lable> 身份证号码：</lable>--}}
+            {{--<input type="text" class="form-control" name="ucid" id="ucid">--}}
+            {{--</div>--}}
+            <div class="form-group" style="clear: both">
 
                 <lable> 地区：</lable>
                 <div id="distpicker" data-toggle="distpicker">
@@ -174,6 +173,7 @@
                 <div id="element_id">
                     <select name="tuijianren" class="form-control" id="tuijianren" style="width:100%">
                         <option value="" selected></option>
+                        <option value="NOSTR">无推荐人</option>
                         @foreach($structure as $k1=>$v1)
                             @if($v1['pid']==0)
                                 <option value="{{$v1['cid']}}">{!! str_repeat("&bull;",0).$v1['name'] !!}</option>
@@ -189,7 +189,10 @@
                 </div>
             </div>
             <div class="form-group">
-
+                <div style="text-align: center;color: red;">
+                    请准确填写个人真实信息 <br>
+                    以便于现场领取奖品并锁定席位
+                </div>
 
             </div>
         </div>

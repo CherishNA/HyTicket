@@ -132,7 +132,7 @@ class CheckSignController extends Controller
                 'off' => ['value' => 0, 'text' => '未签到', 'color' => 'default'],
             ];
 
-            $grid->column('order_price','订单金额');
+            $grid->column('order_price', '订单金额');
             $grid->sign_status('签到状态')->switch($states);
             $grid->seatno('座位号')->display(
                 function ($seatno) {
@@ -144,7 +144,11 @@ class CheckSignController extends Controller
                 }
             )->editable('textarea');
             $grid->recommend_id('推荐人姓名')->display(function ($recommend_id) {
-                return market_structure::where('cid', $recommend_id)->first()->name;
+                if ($recommend_id == 'NOSTR') {
+                    return "无推荐人";
+                } else {
+                    return market_structure::where('cid', $recommend_id)->first()->name;
+                }
             });
 
             $grid->pay_time('付款时间');
